@@ -1,5 +1,6 @@
 # PI4J-Arduino-I2C-Connection
 A coding-example on how to send data between an Arduino and a Raspberry Pi over I2C-bus
+
 In detail: how to send data from the Arduino (Button etc) to the Raspberry Pi, but the Raspberry Pi should work as the Master-Device on the I2C-Bus.
 
 You should have set up the Raspberry Pi with JDK 8. Do not use any newer JDK!!!
