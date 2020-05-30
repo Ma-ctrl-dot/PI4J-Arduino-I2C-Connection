@@ -1,5 +1,5 @@
 # PI4J-Arduino-I2C-Connection
-A coding-example on how to send data between an Arduino and a Raspberry Pi over I2C-bus
+A coding-example on how to send data between an Arduino and a Raspberry Pi over I2C-bus using PI4J
 
 I myself had a lot of problems and issues while developing a project like described. So I decided to put the Code to GitHub to help other People may have problems too.
 
