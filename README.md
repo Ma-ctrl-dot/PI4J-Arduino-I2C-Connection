@@ -16,7 +16,7 @@ The GPIO-Pins of the Raspberry Pi are working with 3.3V-Logic, whether the Ardui
 If the Raspberry Pi works as the Master on the I2C-Bus, this will eventually not gonna be a Problem, because the Raspberry Pi is sending Data with 3.3V-Logic through the I2C-Bus and the Arduino will recognize this as a logic-HIGH.
 But we need a trigger which allows the Arduino to give the Raspberry Pi a signal, so the Raspberry Pi can send a data-request to the Arduino. This will be 5V-Logic and destroying GPIOs is not very useful there has to be another solution.
 
-So in my case i put a cheap Logic-Level-Converter-PCB between the two devices to prevent them from destroying.
+So in my case i put a cheap Logic-Level-Converter-PCB between the two devices to prevent them from destroying. But for prototyping it is also possible to use a relais and switch the 3.3V from the Raspberry pi to the Trigger-GPIO.
 
 Wiring:
 Arduino:    Raspberry Pi:
