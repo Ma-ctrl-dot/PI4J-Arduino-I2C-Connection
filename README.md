@@ -19,11 +19,10 @@ But we need a trigger which allows the Arduino to give the Raspberry Pi a signal
 So in my case i put a cheap Logic-Level-Converter-PCB between the two devices to prevent them from destroying. But for prototyping it is also possible to use a relais and switch the 3.3V from the Raspberry pi to the Trigger-GPIO.
 
 Wiring:
-Arduino:    Raspberry Pi:
-SDA         SDA
-SCL         SCL
-GND         GND
-D3          GPIO 25
+Arduino Pin SDA --> Raspberry Pi Pin SDA
+Arduino Pin SCL --> Raspberry Pi Pin SCL
+Arduino Pin GND --> Raspberry Pi Pin GND
+Arduino Pin D3  --> Raspberry Pi GPIO 25
 
 I hope i could help you with my code-example. If you have any suggestions to improve my code please commit/contact
 Thank you very much!
